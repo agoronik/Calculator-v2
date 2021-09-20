@@ -27,12 +27,6 @@ public class Calculator {
 
         if(Main.operator.equals("/")) {
             result = Main.arNumbers[0] / Main.arNumbers[1];
-            var div = Main.arNumbers[0] % Main.arNumbers[1];
-            if(Main.defLang.equals("rome")) {
-                if(div > 0) {
-                    result++;
-                }
-            }
         }
 
         if(Main.operator.equals("*")) {
